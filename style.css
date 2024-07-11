@@ -38,14 +38,14 @@ main{
 }
 #imagem{
     background: url(img/taca.jpg) no-repeat;
-    height: 250px;
+    height: 200px;
     background-size: cover;
     background-position: center center;
     display: block;
 }
 #form{    
     display: block;
-    padding: 10px;
+    padding: 10px 0px 0px 0px;
     color: white;
 }
 h1{
@@ -55,3 +55,36 @@ h1{
 p{
     padding: 0px 10px 8px 10px;
 }
+input[type=submit]{
+    padding: 10px;
+    width: 30%;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(53, 2, 2); 
+    color: aliceblue;
+    margin: 20px;
+}
+input[type=submit]:hover{
+    background-color: brown;
+}
+a{
+    text-align: bottom;
+    color: aliceblue;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 8px;
+    border: 1px solid rgb(53, 2, 2);
+    border-radius: 10px;
+    display:flexbox;
+    width: 125px;
+}
+a:hover{
+    color: brown;
+    border: 1px solid brown;
+}
+
+#container{
+    display: flex;
+    padding: 2px;
+}
+
