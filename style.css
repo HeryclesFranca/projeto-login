@@ -33,6 +33,8 @@ main{
     border-radius: 20px;
     border: 1px solid rgba(139, 0, 0, 0.733);
     overflow: hidden; /*  DEIXAR A IMAGEM DENTRO DA BORDA */
+    background-image:linear-gradient(to bottom , rgb(73, 10, 10) , rgb(82, 57, 3));
+    transition: width 0.3s, heigth 0.3s ; /*  o tempo para fazer a mudança de tamanho */
 }
 #imagem{
     background: url(img/taca.jpg) no-repeat;
@@ -41,7 +43,15 @@ main{
     background-position: center center;
     display: block;
 }
-#form{
+#form{    
     display: block;
     padding: 10px;
+    color: white;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
+p{
+    padding: 0px 10px 8px 10px;
 }
