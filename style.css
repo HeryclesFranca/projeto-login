@@ -44,6 +44,7 @@ main{
     display: block;
 }
 #form{    
+    position: relative;
     display: block;
     padding: 10px 0px 0px 0px;
     color: white;
@@ -62,7 +63,7 @@ input[type=submit]{
     cursor: pointer;
     background-color: rgb(53, 2, 2); 
     color: aliceblue;
-    margin: 20px;
+    margin: 10px;
 }
 input[type=submit]:hover{
     background-color: brown;
@@ -84,7 +85,11 @@ a:hover{
 }
 
 #container{
-    display: flex;
+
     padding: 2px;
+    position: absolute; /* Posiciona o container em relação ao form */
+    bottom: 2; /* Alinha o container ao fundo do form */
+    width: 100%; /* Faz o container ocupar toda a largura do form, opcional */
+    /* Outras estilizações do container */
 }
 

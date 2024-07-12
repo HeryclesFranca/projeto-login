@@ -20,14 +20,17 @@
         text-align: right;
     }
     #container{
+        /* Faz o container ocupar toda a largura dform, opcional */
+        height: 50%;
         display: flex;
-        justify-content: space-between;
-        position: fixed;
-        bottom: 0;
-        width: 55%;
-        margin: 10px;
-        height: 100% ;
+        flex-direction: column;
+        justify-content: flex-end; /* Alinha os links no fundo */
     }
+    a{
+        width: 140px;
+        margin: 5px;   
+    }
+    
 
 }
 
@@ -46,7 +49,19 @@
         height: 100%;
     }
     h1{
-        padding: 10px;
+        padding: 5px;
         text-align: right;
+        font-size: 2.5em;
+    }
+    #container{
+        /* Faz o container ocupar toda a largura dform, opcional */
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* Alinha os links no fundo */
+    }
+    a{
+        width: 140px;
+        margin: 5px;   
     }
 }
